@@ -72,7 +72,6 @@ Once you have all in his place, you can see it in action, try changing the value
 **That's all.**
 
 <br>
-<br>
 
 ##Adding support for new languages
 If you need add more languages you can edit the class and add a new parameter `$de_text` and a few lines inside the function `translate(...)`, in this example i will add support for a third language *"Deutsch"*, like this:  
