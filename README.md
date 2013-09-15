@@ -35,18 +35,18 @@ Simply PHP Class for easy translate your projects between two or more languages.
 Just include the `translathor.php` Class at the **beginning of the page** that you need translate, create a new instance of the Class and be sure to set the default language if the var `$lang` it's not declared yet.
 
 	<?php 
-	include('translathor.php');
-	$t = new Translathor;
-	
-	//Set the default language if $lang is not declared
-	if($lang==''){ $lang = 'es'; } 
+		include('translathor.php');
+		$t = new Translathor;
+		
+		//Set the default language if $lang is not declared
+		if($lang==''){ $lang = 'es'; } 
 	?>
 **2.- Translating text**
 
 To translate text it's necessary send all words as parameters to the class in the order specified.
 
 	<?php 
-	echo $t->translate('Papa','Potato', $lang);  
+		echo $t->translate('Papa','Potato', $lang);  
 	?>
 
 >The code above display Papa in "es" (Spanish), and Potato in "en" (English).
