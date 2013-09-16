@@ -74,7 +74,7 @@ Once you have all in his place, you can see it in action, try changing the value
 <br>
 
 ##Adding support for new languages
-If you need add more languages you can edit the class and add a new parameter `$de_text` and a few lines inside the function `translate(...)`, in this example i will add support for a third language *"Deutsch"*, like this:  
+If you need add more languages you can edit the class and add a new parameter e.g `$de_text` for deutsch and a few lines inside the function `translate(...)`, in this example i will add support for a third language *"Deutsch"*, like this:  
 	
 	<?php
 	public function translate($es_text, $en_text, $de_text, $lang_choosed){
